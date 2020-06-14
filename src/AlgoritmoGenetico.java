@@ -60,7 +60,7 @@ public class AlgoritmoGenetico {
 		for(int i=0; i<5; i++) {		
 			int teste = rand.nextInt(10);
 			
-			if(listaTest.contains(teste)) {
+			if(listaTest.contains(teste)) {// evita repetir linha
 				System.out.println(" *** FOI *** --");
 				i--;
 				continue;
